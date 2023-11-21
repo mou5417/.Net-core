@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "d11aUICv4FjzxBvONavV4CNbPaTNz9U8lbQ8NR840b4=",
+  "Source": "GRUDExample",
+  "BasePath": "_content/GRUDExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GRUDExample\\wwwroot",
+      "Source": "GRUDExample",
+      "ContentRoot": "C:\\aspnetcore\\test\\test\\wwwroot\\",
+      "BasePath": "_content/GRUDExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
