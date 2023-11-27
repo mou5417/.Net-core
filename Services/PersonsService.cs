@@ -25,19 +25,14 @@ namespace Services
             personResponse.CountryName = _countryService.GetCountryByCountryID(person.CountryID)?.CountryName;
             return personResponse;
         }
-        public PersonResponse AddPerson(PersonAddReuest? personAddRequest)
+        public PersonResponse AddPerson(PersonAddRequest? personAddRequest)
         {
             //personAddRequest = null?
            if (personAddRequest == null) { throw new ArgumentNullException(nameof(personAddRequest)); }
-           //personName = null?
-           if (string.IsNullOrEmpty(personAddRequest.PersonName) || string.IsNullOrEmpty(personAddRequest.Email))
-            {
-                throw new ArgumentNullException("PersonName can't be blank");
-            }
-            var checker = new EmailAddressAttribute();
-           if(!checker.IsValid(personAddRequest.Email)) 
-            
-            { throw new ArgumentException("Email address isn't valid"); }
+
+            //Model Validation
+            ValidationHelper.ModelValidation(personAddRequest);
+           
             //convert personAddRequest into Person type
             Person person = personAddRequest.ToPerson();
 
@@ -53,7 +48,20 @@ namespace Services
 
         public List<PersonResponse> GetAllPersons()
         {
-            throw new NotImplementedException();
+           return _persons.Select(temp => temp.ToPersonResponse()).ToList();
         }
+
+        public PersonResponse GetPersonByPersonID(Guid? personID)
+        {
+            if(personID==null) { return null; }
+            Person? person=_persons.FirstOrDefault(temp=> temp.PersonID == personID);
+            if (person == null)
+            {
+                return null;
+            }
+            return person.ToPersonResponse();
+        }
+
+   
     }
 }

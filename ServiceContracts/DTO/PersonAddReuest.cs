@@ -2,14 +2,14 @@
 using ServiceContracts.Enums;
 namespace ServiceContracts.DTO;
 using System.ComponentModel.DataAnnotations;
-{
+
     /// <summary>
     /// Acts as a DTO for inserting a new person 
     /// </summary>
-   public class PersonAddReuest
+   public class PersonAddRequest
 {
     [Required(ErrorMessage = "Name can't be blank")]
-    public string? PersonName { get; set; }
+    public string PersonName { get; set; }
     [Required(ErrorMessage = "Email can't be blank")]
     [EmailAddress(ErrorMessage = "Please chack Email Address")]
     public string? Email { get; set; }
@@ -39,4 +39,4 @@ using System.ComponentModel.DataAnnotations;
 
 
 }
-}
+

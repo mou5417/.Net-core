@@ -38,13 +38,19 @@ namespace ServiceContracts.DTO
         {
             return base.GetHashCode();
         }
-        /// <summary>
-        /// An extension method to convert an object of Person class into PersonResponse class
-        /// </summary>
-        /// <param name="person">The Person object to convert</param>
-        /// <returns>Returns the converted PersonResponse object</returns>
+
+        public override string ToString()
+        {
+            return $"Person ID:{PersonID},Person Name:{PersonName},Email:{Email},Data of Birth:{DateOfBirth?.ToString("dd MMM yyyy")},Gener: {Gender}, Country ID: {CountryID}," +
+                $"Country:{CountryName}, Address:{Address}, Receive News Letters:{ReceiveNewsLetters}";
+        }
 
     }
+    /// <summary>
+    /// An extension method to convert an object of Person class into PersonResponse class
+    /// </summary>
+    /// <param name="person">The Person object to convert</param>
+    /// <returns>Returns the converted PersonResponse object</returns>
     public static class PersonExtexsion
     {
         public static PersonResponse ToPersonResponse(this Person person)
