@@ -1,7 +1,5 @@
 ﻿using Entities;
-using System;
-using System.Runtime.CompilerServices;
-
+using ServiceContracts.Enums;
 
 namespace ServiceContracts.DTO
 {
@@ -36,13 +34,37 @@ namespace ServiceContracts.DTO
         }
         public override int GetHashCode()
         {
-            return base.GetHashCode();
+            return HashCode.Combine(
+                PersonID,
+                PersonName,
+                Email,
+                DateOfBirth,
+                Gender,
+                CountryID,
+                Address,
+                ReceiveNewsLetters
+                );
         }
 
         public override string ToString()
         {
             return $"Person ID:{PersonID},Person Name:{PersonName},Email:{Email},Data of Birth:{DateOfBirth?.ToString("dd MMM yyyy")},Gener: {Gender}, Country ID: {CountryID}," +
                 $"Country:{CountryName}, Address:{Address}, Receive News Letters:{ReceiveNewsLetters}";
+        }
+       
+        public PersonUpdateRequest ToPersonUpdateRequest()
+        {
+            return new PersonUpdateRequest()
+            {
+                PersonID = PersonID,
+                PersonName = PersonName,
+                Email = Email,
+                DateOfBirth = DateOfBirth,
+                Gender =(GenderOptions) Enum.Parse(typeof(GenderOptions), Gender, true),
+                Address = Address,
+                CountryID = CountryID,
+                ReceiveNewsLetters = ReceiveNewsLetters
+            };
         }
 
     }
@@ -68,6 +90,8 @@ namespace ServiceContracts.DTO
                 Age = (person.DateOfBirth != null) ? Math.Round((DateTime.Now - person.DateOfBirth.Value).TotalDays / 365.25) : null
             };
         }
+
+
     }
 
 }

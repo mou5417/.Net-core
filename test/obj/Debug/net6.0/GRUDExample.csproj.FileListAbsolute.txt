@@ -24,3 +24,13 @@ C:\aspnetcore\test\test\obj\Debug\net6.0\refint\GRUDExample.dll
 C:\aspnetcore\test\test\obj\Debug\net6.0\GRUDExample.pdb
 C:\aspnetcore\test\test\obj\Debug\net6.0\GRUDExample.genruntimeconfig.cache
 C:\aspnetcore\test\test\obj\Debug\net6.0\ref\GRUDExample.dll
+C:\aspnetcore\test\test\bin\Debug\net6.0\Entities.dll
+C:\aspnetcore\test\test\bin\Debug\net6.0\ServiceContracts.dll
+C:\aspnetcore\test\test\bin\Debug\net6.0\Services.dll
+C:\aspnetcore\test\test\bin\Debug\net6.0\Entities.pdb
+C:\aspnetcore\test\test\bin\Debug\net6.0\ServiceContracts.pdb
+C:\aspnetcore\test\test\bin\Debug\net6.0\Services.pdb
+C:\aspnetcore\test\test\obj\Debug\net6.0\GRUDExample.csproj.AssemblyReference.cache
+C:\aspnetcore\test\test\obj\Debug\net6.0\GRUDExample.RazorAssemblyInfo.cache
+C:\aspnetcore\test\test\obj\Debug\net6.0\GRUDExample.RazorAssemblyInfo.cs
+C:\aspnetcore\test\test\obj\Debug\net6.0\GRUDExample.csproj.CopyComplete
