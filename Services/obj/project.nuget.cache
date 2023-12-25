@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D/odeFKK8HOeKnpk+KCsG3omZaCVYZZf19vY7J/D+mba7QuRQKh2e2PlsMswEFM1cTNypLIXNLxqI2NAbHWAnQ==",
+  "dgSpecHash": "tJpMct9667QoNmu6gC0Kfy45fUEjHJQkiNM8odSujGznaXq9OzNEe6I2ej1PSKjn9kYfOfKLVZ2hvvOw+il0bA==",
   "success": true,
-  "projectFilePath": "C:\\aspnetcore\\test\\Services\\Services.csproj",
+  "projectFilePath": "C:\\aspnetcore\\test\\.Net-core\\Services\\Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

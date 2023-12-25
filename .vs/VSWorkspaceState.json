@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\test",
-    "\\test\\Views",
-    "\\test\\Views\\Persons"
+    ""
   ],
-  "SelectedNode": "\\test\\Views\\Persons\\Index.cshtml",
+  "SelectedNode": "\\GRUDSolution.sln",
   "PreviewInSolutionExplorer": false
 }

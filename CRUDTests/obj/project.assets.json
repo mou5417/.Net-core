@@ -5576,11 +5576,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\aspnetcore\\test\\CRUDTests\\CRUDTests.csproj",
+      "projectUniqueName": "C:\\aspnetcore\\test\\.Net-core\\CRUDTests\\CRUDTests.csproj",
       "projectName": "CRUDTests",
-      "projectPath": "C:\\aspnetcore\\test\\CRUDTests\\CRUDTests.csproj",
+      "projectPath": "C:\\aspnetcore\\test\\.Net-core\\CRUDTests\\CRUDTests.csproj",
       "packagesPath": "C:\\Users\\fiyon\\.nuget\\packages\\",
-      "outputPath": "C:\\aspnetcore\\test\\CRUDTests\\obj\\",
+      "outputPath": "C:\\aspnetcore\\test\\.Net-core\\CRUDTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fiyon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5597,14 +5597,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\aspnetcore\\test\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\aspnetcore\\test\\Entities\\Entities.csproj"
+            "C:\\aspnetcore\\test\\.Net-core\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\aspnetcore\\test\\.Net-core\\Entities\\Entities.csproj"
             },
-            "C:\\aspnetcore\\test\\ServiceContracts\\ServiceContracts.csproj": {
-              "projectPath": "C:\\aspnetcore\\test\\ServiceContracts\\ServiceContracts.csproj"
+            "C:\\aspnetcore\\test\\.Net-core\\ServiceContracts\\ServiceContracts.csproj": {
+              "projectPath": "C:\\aspnetcore\\test\\.Net-core\\ServiceContracts\\ServiceContracts.csproj"
             },
-            "C:\\aspnetcore\\test\\Services\\Services.csproj": {
-              "projectPath": "C:\\aspnetcore\\test\\Services\\Services.csproj"
+            "C:\\aspnetcore\\test\\.Net-core\\Services\\Services.csproj": {
+              "projectPath": "C:\\aspnetcore\\test\\.Net-core\\Services\\Services.csproj"
             }
           }
         }

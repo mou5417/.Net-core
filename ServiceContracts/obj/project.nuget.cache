@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cJ07Xnk8eq61WMC69PqTiAZBri8Whee+LyAm9A4ZdiV5IYL2Jor7SNz4ntsp2hXxBBaqP9RoHfp0jXgKXNIswg==",
+  "dgSpecHash": "qPacREx9S58U1Z0iIyaPRbO0JGESLAGgxY5kYI1MLTQHgp5VOUoMb5iMRK/ojSfytUM+S8Wi2NxiyESuB8UWgw==",
   "success": true,
-  "projectFilePath": "C:\\aspnetcore\\test\\ServiceContracts\\ServiceContracts.csproj",
+  "projectFilePath": "C:\\aspnetcore\\test\\.Net-core\\ServiceContracts\\ServiceContracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

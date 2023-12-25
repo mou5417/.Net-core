@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\aspnetcore\\test\\ServiceContracts\\ServiceContracts.csproj",
+      "projectUniqueName": "C:\\aspnetcore\\test\\.Net-core\\ServiceContracts\\ServiceContracts.csproj",
       "projectName": "ServiceContracts",
-      "projectPath": "C:\\aspnetcore\\test\\ServiceContracts\\ServiceContracts.csproj",
+      "projectPath": "C:\\aspnetcore\\test\\.Net-core\\ServiceContracts\\ServiceContracts.csproj",
       "packagesPath": "C:\\Users\\fiyon\\.nuget\\packages\\",
-      "outputPath": "C:\\aspnetcore\\test\\ServiceContracts\\obj\\",
+      "outputPath": "C:\\aspnetcore\\test\\.Net-core\\ServiceContracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fiyon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\aspnetcore\\test\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\aspnetcore\\test\\Entities\\Entities.csproj"
+            "C:\\aspnetcore\\test\\.Net-core\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\aspnetcore\\test\\.Net-core\\Entities\\Entities.csproj"
             }
           }
         }
