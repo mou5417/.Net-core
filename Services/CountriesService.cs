@@ -9,13 +9,54 @@ namespace Services
         private readonly List<Country> _countries;
 
         //constructor
-        public CountriesService()
+        public CountriesService(bool initial=true)//this initial represent the default value
         {
             _countries = new List<Country>();
+            if (initial)
+            {
+                _countries.AddRange(new List<Country>()
+                {
+                    new Country()
+                    {
+                    CountryID = Guid.Parse("9c6d5c5c-4f47-48e7-ba6f-dcab69d6fc12"),
+                    CountryName = "United States",
+                    },
+                    new Country()
+                    {
+                        CountryID = Guid.Parse("8d6d5c5c-4f47-48e7-ba6f-dcab69d6fc12"),
+                        CountryName = "Canada"
+                    },
+                    new Country()
+                    {
+                        CountryID = Guid.Parse("7d6d5c5c-4f47-48e7-ba6f-dcab69d6fc12"),
+                        CountryName = "United Kingdom"
+                    },
+                    new Country()
+                    {
+                        CountryID = Guid.Parse("6d6d5c5c-4f47-48e7-ba6f-dcab69d6fc12"),
+                        CountryName = "Australia"
+                    },
+                    new Country()
+                    {
+                        CountryID = Guid.Parse("5d6d5c5c-4f47-48e7-ba6f-dcab69d6fc12"),
+                        CountryName = "Germany"
+                    }
+
+
+                  });
+
+
+            }
+
+
+
+
         }
+
+
         public CountryResponse AddCountry(CountryAddRequest? countryAddRequest)
         {
-            
+
             //Validation: countryAddRequest parameter can't be null
             if (countryAddRequest == null)
             {
@@ -42,19 +83,19 @@ namespace Services
             _countries.Add(country);
             return country.ToCountryResponse();
 
-           
+
         }
 
         public List<CountryResponse> GetAllCountries()
         {
-           return _countries.Select(country => country.ToCountryResponse()).ToList();
+            return _countries.Select(country => country.ToCountryResponse()).ToList();
         }
 
         public CountryResponse? GetCountryByCountryID(Guid? CountryID)
         {
-            if (CountryID== null) { return null; }
+            if (CountryID == null) { return null; }
 
-            Country? country_response_from_list = _countries.FirstOrDefault(temp=> temp.CountryID == CountryID);
+            Country? country_response_from_list = _countries.FirstOrDefault(temp => temp.CountryID == CountryID);
 
             if (country_response_from_list == null)
                 return null;

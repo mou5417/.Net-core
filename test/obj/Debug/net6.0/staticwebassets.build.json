@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d11aUICv4FjzxBvONavV4CNbPaTNz9U8lbQ8NR840b4=",
+  "Hash": "VU6f78tAK9ATtW34DdcCakJNNn5tOTjNYBvjGlmKLis=",
   "Source": "GRUDExample",
   "BasePath": "_content/GRUDExample",
   "Mode": "Default",
@@ -15,5 +15,25 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\aspnetcore\\test\\test\\wwwroot\\StyleSheet.css",
+      "SourceId": "GRUDExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\aspnetcore\\test\\test\\wwwroot\\",
+      "BasePath": "_content/GRUDExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
 }

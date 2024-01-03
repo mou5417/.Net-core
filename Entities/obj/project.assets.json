@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\aspnetcore\\test\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\aspnetcore\\test\\.Net-core\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\aspnetcore\\test\\Entities\\Entities.csproj",
+      "projectPath": "C:\\aspnetcore\\test\\.Net-core\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\fiyon\\.nuget\\packages\\",
-      "outputPath": "C:\\aspnetcore\\test\\Entities\\obj\\",
+      "outputPath": "C:\\aspnetcore\\test\\.Net-core\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fiyon\\AppData\\Roaming\\NuGet\\NuGet.Config",

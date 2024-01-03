@@ -1,3 +1,6 @@
+using ServiceContracts;
+using Services;
+
 namespace test
 {
     public class Program
@@ -6,6 +9,9 @@ namespace test
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSingleton<ICountriesService, CountriesService>();
+            builder.Services.AddSingleton<IPersonsService, PersonsService>();
+
             var app = builder.Build();
 
             if(builder.Environment.IsDevelopment())

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JMo+IOOrg5jr51UO5QYNh5DhT4/eWaSkRAZu0/rlU+OQKTFn2XH/VIBKRTTlmkaT9pyEzzDStTsg7h2rdY6NHA==",
+  "dgSpecHash": "ZS6pBB8fusabddy7+PUXQ62pQPwqHRlg0wIRLS1ewuLLAQAADTDYH+JMqsFCpm+HBQj1tKej3qcE0Fb02tjfYQ==",
   "success": true,
-  "projectFilePath": "C:\\aspnetcore\\test\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\aspnetcore\\test\\.Net-core\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

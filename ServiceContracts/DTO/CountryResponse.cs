@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using Entities;
 
 namespace ServiceContracts.DTO
@@ -8,6 +9,7 @@ namespace ServiceContracts.DTO
     /// </summary>
     public class CountryResponse
     {
+        [Key]
         public Guid CountryID { get; set; }
         public string? CountryName { get; set; }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SAWuRsVwqPzAC/qDsdlggsOkUsbskt8DAfHhNZVFzvVqtVPBXeBE8doMw3XK2CEjMWUqD8Rt7TJHqX7mPotrLw==",
+  "dgSpecHash": "eEhdNe6AW8Pr7e9lsLjB0Efn3K7C6gh9RTQWhZbkiBIs5WwwoMmRfN7OWfGgsnisQiz5iPUYyYU5YLFtcxk1Rg==",
   "success": true,
-  "projectFilePath": "C:\\aspnetcore\\test\\CRUDTests\\CRUDTests.csproj",
+  "projectFilePath": "C:\\aspnetcore\\test\\.Net-core\\CRUDTests\\CRUDTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fiyon\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\fiyon\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

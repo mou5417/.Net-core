@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wKPRJnZ/9Vx4HVBXX93yAf2tCpjELTcbLZ0seRWm1zQ61nyXSPQBGAuagvBmNre8BFLjT0acHn75Cjzq0Pl7DA==",
+  "dgSpecHash": "qTAW/C9/wNzNzH/k2N6QemrKzXzWZsK2gK7eMxrcl0x3SlkJnFVcQxaQqOSy3aD0vOfX/lpWirn+wQ+Z18cqlg==",
   "success": true,
-  "projectFilePath": "C:\\aspnetcore\\test\\test\\GRUDExample.csproj",
+  "projectFilePath": "C:\\aspnetcore\\test\\.Net-core\\test\\GRUDExample.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
